@@ -1,17 +1,29 @@
 {
-    "name": "Backend Test",
+    "name": "NodeJS",
     "expertises": [
         {
             "name": "Nivel 1 - Básico",
             "cards": [
                 {
-                    "id": "angular-fundamentals"
+                    "id": "javascript-fundamentals"
                 },
                 {
-                    "id": "typescript-fundamentals"
+                    "id": "git-and-github-fundamentals"
                 },
                 {
-                    "id": "rxjs-fundamentals"
+                    "id": "javascript-callbacks-promises"
+                },
+                {
+                    "id": "javascript-errorhandling"
+                },
+                {
+                    "id": "json"
+                },
+                {
+                    "id": "nodejs-fundamentals"
+                },
+                {
+                    "id": "nodejs-testing"
                 }
             ]
         },
@@ -19,19 +31,28 @@
             "name": "Nivel 2 - Intermediário",
             "cards": [
                 {
-                    "id": "angular-templates"
+                    "id": "http-fundamentals"
                 },
                 {
-                    "id": "angular-rendering"
+                    "id": "oop-concepts"
                 },
                 {
-                    "id": "angular-services"
+                    "id": "nodejs-express"
                 },
                 {
-                    "id": "angular-routing"
+                    "id": "nodejs-authentication-tokens"
                 },
                 {
-                    "id": "angular-cli"
+                    "id": "nodejs-orm"
+                },
+                {
+                    "id": "typescript-fundamentals"
+                },
+                {
+                    "id": "solid"
+                },
+                {
+                    "id": "clean-code"
                 }
             ]
         },
@@ -39,104 +60,141 @@
             "name": "Nivel 3 - Avançado",
             "cards": [
                 {
-                    "id": "angular-state-management:"
+                    "id": "nestjs-fundamentals"
                 },
                 {
-                    "id": "angular-forms"
+                    "id": "containers"
                 },
                 {
-                    "id": "angular-modules"
+                    "id": "microservices"
                 },
                 {
-                    "id": "angular-dependency-injection"
+                    "id": "graphql"
                 },
                 {
-                    "id": "angular-testing"
+                    "id": "design-patterns"
                 },
                 {
-                    "id": "angular-services"
-                },
-                {
-                    "id": "angular-routing"
-                },
-                {
-                    "name": "Microfrontends com Angular",
-                    "short-description": "Microfrontends com Angular",
-                    "key-objectives": [
-                        "Conhecer o conceito de microfrontends",
-                        "Conhecer o Module Federation do Webpack",
-                        "Aprender a utilizar o Module Federation para Microfrontends em Angular"
-                    ],
-                    "additional-objectives": [],
-                    "contents": [
-                        {
-                            "type": "ARTICLE",
-                            "title": "The Microfrontend Revolution: Module Federation with Angular",
-                            "link": "https://www.angulararchitects.io/en/aktuelles/the-microfrontend-revolution-part-2-module-federation-with-angular/"
-                        },
-                        {
-                            "type": "SITE",
-                            "title": "Webpack - Module Federation",
-                            "link": "https://webpack.js.org/concepts/module-federation/"
-                        },
-                        {
-                            "type": "SITE",
-                            "title": "Microfontends",
-                            "link": "https://micro-frontends.org/"
-                        },
-                        {
-                            "type": "YOUTUBE",
-                            "title": "MFEs , Micro-Frontends with Module Federation and Angular",
-                            "link": "https://www.youtube.com/watch?v=EGdbmj-kj88"
-                        },
-                        {
-                            "type": "PODCAST",
-                            "title": "Hipsters 164 - Microfrontends",
-                            "link": "https://www.hipsters.tech/microfrontends-hipsters-164/"
-                        }
-                    ]
+                    "id": "kafka"
                 }
             ]
         }
     ],
     "collaborations": [
         {
-            "name": "Fundamentos Web",
+            "name": "DevOps",
             "cards": [
                 {
-                    "id": "html-fundamentals"
+                    "id": "linux-fundamentals"
                 },
                 {
-                    "id": "css-fundamentals"
+                    "id": "command-line-fundamentals"
                 },
                 {
-                    "id": "javascript-fundamentals"
+                    "id": "scripting"
                 },
                 {
-                    "id": "dom-fundamentals"
+                    "id": "ci-cd"
                 },
                 {
-                    "id": "javascript-accessibility"
-                },
-                {
-                    "id": "seo-strategies"
-                },
-                {
-                    "id": "responsive-design"
-                },
-                {
-                    "id": "http-fundamentals"
+                    "name": "Jenkins",
+                    "short-description": "Manipulando CI/CD com Jenkins",
+                    "key-objectives": [
+                        "Conhecer a ferramenta Jenkins",
+                        "Criar projetos e pipelines automatizadas dentro do Jenkins"
+                    ],
+                    "additional-objectives": [],
+                    "contents": [
+                        {
+                            "type": "COURSE",
+                            "title": "Jenkins: integração contínua",
+                            "link": "https://cursos.alura.com.br/course/jenkins-integracao-continua"
+                        },
+                        {
+                            "type": "COURSE",
+                            "title": "Jenkins e Docker: Pipeline de entrega continua",
+                            "link": "https://cursos.alura.com.br/course/pipeline-ci-jenkins-docker"
+                        }
+                    ]
                 }
             ]
         },
         {
-            "name": "Controle de Versão",
+            "name": "Bases de dados / Clouds",
             "cards": [
                 {
-                    "id": "frontend-semantic-versioning"
+                    "id": "cloud-fundamentals"
                 },
                 {
-                    "id": "git-and-github-fundamentals"
+                    "id": "sql-fundamentals"
+                },
+                {
+                    "name": "PostgresSQL",
+                    "short-description": "Conhecendo a base de dados PostgresSQL",
+                    "key-objectives": [
+                        "Conhecer a base de dados PostgreSQL.",
+                        "Saber criar e gerenciar estrutura de bases eficientes."
+                    ],
+                    "additional-objectives": [],
+                    "contents": [
+                        {
+                            "type": "COURSE",
+                            "title": "Introdução ao PostgresSQL",
+                            "link": "https://cursos.alura.com.br/course/introducao-postgresql-primeiros-passos"
+                        },
+                        {
+                            "type": "COURSE",
+                            "title": "PostgreSQL: Views, Sub-Consultas e Funções",
+                            "link": "https://cursos.alura.com.br/course/postgresql-views-sub-consultas-funcoes"
+                        },
+                        {
+                            "type": "COURSE",
+                            "title": "PostgreSQL: comandos DML e DDL",
+                            "link": "https://cursos.alura.com.br/course/pgsql-comandos-dml-ddl"
+                        },
+                        {
+                            "type": "COURSE",
+                            "title": "PostgreSQL: desenvolva com PL/pgSQL",
+                            "link": "https://cursos.alura.com.br/course/postgresql-procedures"
+                        },
+                        {
+                            "type": "COURSE",
+                            "title": "PostgreSQL: Triggers, transações, erros e cursores",
+                            "link": "https://cursos.alura.com.br/course/postgresql-triggers-transacoes-erros-cursores"
+                        },
+                        {
+                            "type": "COURSE",
+                            "title": "PostgreSQL: administração e otimização do banco",
+                            "link": "https://cursos.alura.com.br/course/postgresql-administracao-otimizacao"
+                        }
+                    ]
+                },
+                {
+                    "name": "Redis",
+                    "short-description": "Conhecendo a base de dados Redis",
+                    "key-objectives": [
+                        "Conhecer a base de dados PostgreSQL.",
+                        "Implementação de estratégias de cache em aplicações.",
+                        "Saber criar e gerenciar estrutura de chave-valor eficientes."
+                    ],
+                    "additional-objectives": [],
+                    "contents": [
+                        {
+                            "type": "ARTICLE",
+                            "title": "Redis: instalação e primeiros comandos",
+                            "link": "https://www.alura.com.br/artigos/redis-instalacao-primeiros-comandos"
+                        },
+                        {
+                            "type": "COURSE",
+                            "title": "Redis I: armazenando chaves e valores",
+                            "link": "https://cursos.alura.com.br/course/nosql-chave-valor-com-redis-1"
+                        },
+                        {
+                            "type": "COURSE",
+                            "title": "Redis II: estruturas e recursos na sua base NoSQL",
+                            "link": "https://cursos.alura.com.br/course/nosql-chave-valor-com-redis-2"
+                        }
+                    ]
                 }
             ]
         }
